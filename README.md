@@ -1,10 +1,12 @@
-# 🏥 Medify - Healthcare Clinic Booking Platform
+![Banner](Frontend/public/images/banner.png)
 
-![Medify Banner](./Frontend/public/images/banner.png)
+# Medify - Healthcare Clinic Booking Platform
+
+
 
 A comprehensive healthcare platform that connects patients with clinics, enabling easy appointment booking, doctor discovery, and seamless healthcare management. Built with modern web technologies for a smooth user experience.
 
-## 🌟 Features
+## Features
 
 ### For Patients
 - **Easy Clinic Discovery**: Search clinics by location or medical specialty
@@ -22,7 +24,7 @@ A comprehensive healthcare platform that connects patients with clinics, enablin
 - **Doctor Management**: Manage doctor profiles and availability
 - **Review Management**: Monitor and respond to patient reviews
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** - Modern React with hooks and functional components
@@ -48,7 +50,7 @@ A comprehensive healthcare platform that connects patients with clinics, enablin
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
 
-## �️ Skills
+## Skills
 
 ### Frontend Technologies
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -69,7 +71,7 @@ A comprehensive healthcare platform that connects patients with clinics, enablin
 ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-## �🚀 Installation
+## Installation
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -124,7 +126,7 @@ A comprehensive healthcare platform that connects patients with clinics, enablin
 3. **Open your browser**
    Navigate to `http://localhost:5173`
 
-## 📖 Usage
+## Usage
 
 ### For Patients
 
@@ -143,39 +145,39 @@ A comprehensive healthcare platform that connects patients with clinics, enablin
 4. **Doctor Management**: Add and manage doctor profiles
 5. **Patient Communication**: View patient details and appointment history
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏠 Homepage - Healthcare Platform Hero Section
+### Homepage - Healthcare Platform Hero Section
 ![Healthcare platform hero section for booking clinic appointments online](./Frontend/src/assets/screenshots/Screenshot%202025-12-14%20003253.png)
 
 *Highlights easy doctor discovery, instant booking, and trusted healthcare services. Clean, professional design with a strong call-to-action and mobile preview.*
 
-### 🔍 Clinic Search - Choose Search Method
+### Clinic Search - Choose Search Method
 ![User chooses a search method: by location or by medical specialty](./Frontend/src/assets/screenshots/Screenshot%202025-12-13%20212447.png)
 
 *Enters required details (location and/or specialty) and starts the search. System displays matching doctors or specialists with booking options.*
 
-### 🏥 Clinic Details Page
+### Clinic Details Page
 ![Clinic details page displaying overview, doctors, services, facilities, and location map](./Frontend/src/assets/screenshots/Screenshot%202025-12-14%20002711.png)
 
 *Users can view doctor profiles, consultation fees, and clinic information. Provides quick actions to book appointments and access contact/location details.*
 
-### 📅 Appointment Booking
+### Appointment Booking
 ![Appointment booking page where users select a doctor, date, and available time slot](./Frontend/src/assets/screenshots/Screenshot%202025-12-14%20003024.png)
 
 *Patient details are collected and a live confirmation summary is shown alongside. User reviews details and proceeds with Confirm & Pay to complete the booking.*
 
-### 💳 Payment Processing
+### Payment Processing
 ![Payment page displaying a summary of the appointment and payable amount](./Frontend/src/assets/screenshots/Screenshot%202025-12-14%20113548.png)
 
 *Users can choose a payment method (UPI, debit/credit card, net banking) to confirm booking. Secure checkout flow to complete appointment confirmation payment.*
 
-### ✅ Booking Confirmation
+### Booking Confirmation
 ![Payment success page confirming the appointment booking](./Frontend/src/assets/screenshots/Screenshot%202025-12-14%20113548.png)
 
 *Displays appointment summary with doctor, clinic, patient, and specialization details. Provides options to download the receipt, return home, or view appointment details.*
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Project-HealthCare/
