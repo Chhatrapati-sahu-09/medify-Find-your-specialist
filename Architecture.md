@@ -1,12 +1,10 @@
-# 🏗️ Medify System Architecture
+# <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" width="26"/> Medify System Architecture
 
 The **Medify Healthcare Clinic Booking Platform** follows a **MERN Stack Three-Tier Architecture** ensuring scalability, maintainability, and secure communication between system components.
 
 ---
 
-# 📊 Overall Architecture Diagram
-
-### Diagram
+# <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="22"/> Overall Architecture Diagram
 
 ```mermaid
 flowchart LR
@@ -61,15 +59,13 @@ I --> N
 E --> O
 ```
 
+---
 
+# <img src="https://cdn-icons-png.flaticon.com/512/906/906343.png" width="22"/> Architecture Layers
 
 ---
 
-# 🧩 Architecture Layers
-
----
-
-# 1️⃣ Client Layer
+# 1. Client Layer
 
 The **Client Layer** represents end users accessing the application through:
 
@@ -88,7 +84,7 @@ Communication with the frontend occurs via **HTTP/HTTPS requests**.
 
 ---
 
-# 2️⃣ Frontend Layer (React + Vite)
+# 2. Frontend Layer (React + Vite)
 
 Responsible for **UI rendering and user experience**.
 
@@ -105,8 +101,6 @@ A --> D[Routing - React Router]
 A --> E[Map Integration - Leaflet]
 A --> F[Receipt Generator - jsPDF]
 ```
-
-
 
 ## Key Responsibilities
 
@@ -131,7 +125,7 @@ A --> F[Receipt Generator - jsPDF]
 
 ---
 
-# 3️⃣ Backend Layer (Node.js + Express)
+# 3. Backend Layer (Node.js + Express)
 
 Handles **server-side logic and APIs**.
 
@@ -155,8 +149,6 @@ C --> F[Mongoose Models]
 F --> G[(MongoDB Atlas)]
 ```
 
-
-
 ## Key Responsibilities
 
 * API request handling
@@ -178,7 +170,7 @@ F --> G[(MongoDB Atlas)]
 
 ---
 
-# 4️⃣ Database Layer (MongoDB)
+# 4. Database Layer (MongoDB)
 
 Stores all application data.
 
@@ -194,8 +186,6 @@ A --> B[Mongoose Models]
 B --> C[(MongoDB Atlas Database)]
 ```
 
-
-
 ## Main Collections
 
 | Collection   | Description          |
@@ -208,7 +198,7 @@ B --> C[(MongoDB Atlas Database)]
 
 ---
 
-# 🔄 Appointment Booking Flow
+# <img src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" width="22"/> Appointment Booking Flow
 
 ```mermaid
 sequenceDiagram
@@ -227,11 +217,9 @@ Backend-->>Frontend: Confirmation
 Frontend-->>User: Show receipt
 ```
 
-
-
 ---
 
-# 🌐 External Services
+# <img src="https://cdn-icons-png.flaticon.com/512/929/929564.png" width="22"/> External Services
 
 ### Payment Gateway
 
@@ -249,7 +237,7 @@ Used by **Leaflet Maps** for clinic location display.
 
 ---
 
-# 📁 Architecture Type
+# <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" width="22"/> Architecture Type
 
 ```mermaid
 flowchart TD
@@ -265,7 +253,7 @@ C --> D[(MongoDB Atlas)]
 
 ---
 
-# 🚀 Benefits
+# <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" width="22"/> Benefits
 
 ### Scalability
 
@@ -289,7 +277,7 @@ MongoDB allows dynamic schema design.
 
 ---
 
-# 💻 Deployment Architecture
+# <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" width="22"/> Deployment Architecture
 
 ```mermaid
 flowchart TD
@@ -303,7 +291,7 @@ B --> C[(MongoDB Atlas)]
 
 ---
 
-# 📌 Summary
+# <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" width="22"/> Summary
 
 Medify uses **modern MERN architecture** enabling:
 
