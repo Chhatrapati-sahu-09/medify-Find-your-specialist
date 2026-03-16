@@ -1,56 +1,56 @@
-## 🏗️ Medify System Architecture
+# 🏗️ Medify System Architecture
+
+The **Medify Healthcare Clinic Booking Platform** follows a **MERN Stack 3-Tier Architecture** consisting of:
+
+1. **Client Layer (User Interface)**
+2. **Application Layer (Backend Server & APIs)**
+3. **Data Layer (Database)**
+
+This architecture ensures **scalability, maintainability, security, and efficient data flow** between users, services, and the database.
+
+---
+
+# 📊 High Level Architecture Diagram
 
 ```mermaid
 flowchart LR
 
-%% =======================
 %% Client Layer
-%% =======================
 subgraph Client["Client Layer"]
-    A[User Browser / Mobile Device]
+A[User Browser / Mobile Device]
 end
 
-%% =======================
-%% Frontend Layer
-%% =======================
-subgraph Frontend["Frontend (React + Vite)"]
-    B[React UI Components]
-    C[Pages & Layouts]
-    D[React Router Navigation]
-    E[Leaflet Map Integration]
-    F[jsPDF Receipt Generator]
+%% Frontend
+subgraph Frontend["Frontend Layer (React + Vite)"]
+B[React Components]
+C[Pages & Layouts]
+D[React Router]
+E[Leaflet Maps]
+F[jsPDF Receipt Generator]
 end
 
-%% =======================
-%% Backend Layer
-%% =======================
-subgraph Backend["Backend (Node.js + Express.js)"]
-    G[Express Server]
-    H[API Routes]
-    I[Controllers - Business Logic]
-    J[Middleware - Validation & Auth]
-    K[JWT Authentication]
+%% Backend
+subgraph Backend["Backend Layer (Node.js + Express.js)"]
+G[Express Server]
+H[API Routes]
+I[Controllers]
+J[Middleware]
+K[JWT Authentication]
 end
 
-%% =======================
-%% Database Layer
-%% =======================
+%% Database
 subgraph Database["Database Layer"]
-    L[(MongoDB Atlas)]
-    M[Mongoose Models]
+L[(MongoDB Atlas)]
+M[Mongoose Models]
 end
 
-%% =======================
 %% External Services
-%% =======================
-subgraph ExternalServices["External Services"]
-    N[Payment Gateway]
-    O[Map Tiles Provider]
+subgraph External["External Services"]
+N[Payment Gateway]
+O[Map Tiles Provider]
 end
 
-%% =======================
 %% Connections
-%% =======================
 A --> B
 B --> C
 C --> D
